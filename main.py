@@ -53,7 +53,7 @@ class MantisGame:
                 return i + 1
         return False
 
-    def play(self, moveFunc):
+    def play(self):
         while True:
             # check if the game is over
             if self.isOver():
